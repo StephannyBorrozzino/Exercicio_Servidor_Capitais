@@ -120,7 +120,7 @@ app.get("/rs", (req, res) => {
 });
 
 app.use((req, res) => {
-    res.status(404).send("página não encontrada")
+    res.status(404).send("rota não encontrada")
 })
 
 app.listen(porta, () => {
